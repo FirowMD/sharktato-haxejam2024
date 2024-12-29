@@ -1,0 +1,7 @@
+-cp src
+-lib heaps
+-js shark.js
+-main Main
+-D resourcesPath=res
+--macro include('res')
+-D js-source-map

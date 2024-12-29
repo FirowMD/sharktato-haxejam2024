@@ -1,0 +1,17 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Launch Yandex against localhost",
+			"url": "file://${workspaceFolder}/index.html",
+			"webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "C:/Users/geork/AppData/Local/Yandex/YandexBrowser/Application/browser.exe", //! Change path to your browser
+			"preLaunchTask": {
+				"type" : "haxe",
+				"args" : "active configuration"
+			}
+		}
+	]
+}
